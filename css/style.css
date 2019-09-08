@@ -1,0 +1,55 @@
+/*body start*/body{
+	margin: 0px;
+	padding: 0px;
+	
+}
+/*body end*/
+/*header start*/
+header{
+	background-color: #121B2A;
+	    padding: 10px 0px;
+}
+.wrapper{
+	width: 80%;
+	/*border: 1px solid white;*/
+	margin: 0 auto;
+	overflow: hidden;
+}
+.logo{
+	width: 20%;
+	/*border: 1px solid white;*/
+	float: left;
+}
+.logo img{
+	width: 100%;
+
+}
+.menu ul{
+	    float: right;
+}
+.menu{
+	    width: 70%;
+   /* border: 1px solid white;*/
+    float: right;
+    margin-top: 40px;
+}
+.menu ul li{
+	list-style: none;
+	text-transform: uppercase;
+	font-size: 18px;
+	    float: left;
+    display: block;
+}
+.menu ul li a{
+	    text-decoration: none;
+    float: left;
+    color: wheat;
+    padding: 0 20px;
+    transition: .5s;}
+
+.menu ul li:last-child a{
+	padding-right: 0px;}
+
+.menu ul li a:hover{
+	color: #0078BF;}
+/*heaer end*/
